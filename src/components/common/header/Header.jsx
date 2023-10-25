@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-
+// import mylogo from '../../images/logo.png';
 const Header = () => {
   const [navList, setNavList] = useState(false)
 
@@ -11,8 +11,8 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-
-
+                {/* <img src={mylogo} alt="not found"/> */}
+                <img  src="../images/logo.png" alt=""/>
           </div>
          
          
@@ -28,9 +28,7 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
-            <h4>
-              <span>2</span> My List
-            </h4>
+            
             <button className='btn1'>
               <i className=''></i> login/Sign Up
             </button>
