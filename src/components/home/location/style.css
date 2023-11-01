@@ -1,6 +1,11 @@
 .location .box {
   position: relative;
   border-radius: 5px;
+  transition: transform .2s; /* Animation */
+
+}
+.location .box:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .location img {
   border-radius: 5px;
@@ -33,5 +38,9 @@
   .location .overlay::after {
     width: 280px;
     height: 170px;
+  }
+  .location img {
+    border-radius: 5px;
+    margin-left:10px ;
   }
 }

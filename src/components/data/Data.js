@@ -1,12 +1,14 @@
+import { useState } from "react"
+
 export const nav = [
   {
     text: "home",
     path: "/",
   },
-  {
-    text: "Night Club",
-    path: "/location",
-  },
+  // {
+  //   text: "nightclub",
+  //   path: "/nightclub",
+  // },
   {
     text: "services",
     path: "/services",
@@ -14,6 +16,10 @@ export const nav = [
   {
     text: "blog",
     path: "/blog",
+  },
+  {
+    text: "nightclub",
+    path: "/nightclub",
   },
   
   {
@@ -179,8 +185,7 @@ export const team = [
   },
 ]
 
- 
-     
+
  
     
   

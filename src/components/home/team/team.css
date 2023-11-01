@@ -3,11 +3,13 @@
   border-radius: 6px;
   border: 1px solid rgb(62 28 131 / 10%);
   padding: 2rem;
-  transition: 0.5s;
+  /* transition: 0.5s; */
+  transition: transform .2s;
+
 }
 .team .box:hover {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
-  cursor: pointer;
+  transform: scale(1.1);
 }
 .team .details {
   text-align: center;
@@ -62,4 +64,12 @@
 .team .button i {
   color: white;
   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .team .img {
+ 
+    border-radius: 5px;
+  margin-left: 30px;
+  }
 }

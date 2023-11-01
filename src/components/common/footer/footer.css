@@ -56,4 +56,19 @@ footer ul li {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footerContact {
+    background-color: rgb(9, 9, 87);
+    padding: 40px 0;
+    padding-left: 30px;
+    color: #fff;
+    font-size: small;
+
+  }
+  footer {
+    background-color:#1d2636;
+    padding: 50px 0;
+    color: #fff;
+    font-size: small;
+    padding-left: 30px;
+  }
 }

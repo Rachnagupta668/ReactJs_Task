@@ -3,6 +3,7 @@ import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
 // import mylogo from '../../images/logo.png';
+
 const Header = () => {
   const [navList, setNavList] = useState(false)
 
@@ -19,6 +20,10 @@ const Header = () => {
     
 <div>
 
+
+
+
+
             <ul className={navList ? "small" : "flex"}>
               {nav.map((list, index) => (
                 <li key={index}>
@@ -29,8 +34,10 @@ const Header = () => {
           </div>
           <div className='button flex'>
             
-            <button className='btn1'>
-              <i className=''></i> login/Sign Up
+            <button className='btn1' >
+            <Link className='loginlink' to="/login">Login/SignUp</Link>
+
+              {/* <i className=''></i> login/Sign Up */}
             </button>
           </div>
 

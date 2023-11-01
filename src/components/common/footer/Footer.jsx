@@ -1,6 +1,8 @@
 import React from "react"
 import { footer } from "../../data/Data"
 import "./footer.css"
+import { Link } from "react-router-dom"
+
 
 const Footer = () => {
   return (
@@ -12,7 +14,14 @@ const Footer = () => {
               <h1>List your event</h1>
               <p>Got a show,event,activity or a great experince? Partner with us & get listed on Chillerz</p>
             </div>
-            <button className='btn5'>Contact Now</button>
+            <button className='btn5'>
+            <Link  to="/contact">              Contact Now
+</Link>
+
+              
+              {/* Contact Now */}
+              
+              </button>
             
           </div>
         </div>

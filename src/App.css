@@ -30,7 +30,6 @@ ul {
 }
 button {
   border-radius: 5px;
-  
   background: #ED7014;
   border: none;
   color: #fff;
@@ -41,6 +40,12 @@ button {
 }
 button i {
   margin-right: 5px;
+
+
+}
+
+button Link{
+  text-align: center;
 }
 .heading {
   text-align: center;
@@ -86,6 +91,11 @@ h4 {
 }
 .shadow {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  transition: transform .2s;
+}
+
+.shadow:hover {
+  transform: scale(1.1); 
 }
 .padding {
   padding: 80px 0;
@@ -176,4 +186,6 @@ img {
   .back {
     height: 30vh;
   }
+
+
 }

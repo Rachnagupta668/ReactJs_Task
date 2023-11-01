@@ -1,6 +1,6 @@
 header {
   background-color: #241e1e;
-  height: 10vh;
+  height: 15vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
   padding: 15px 0;
   position: sticky;
@@ -27,6 +27,14 @@ header h4 {
 header .toggle {
   display: none;
 }
+
+.loginlink{
+  text-align: center;
+  margin-right: 20px;
+  color: #fff;
+  font-size: medium;
+}
+
 @media screen and (max-width: 768px) {
   header {
     padding: 0;
@@ -58,5 +66,8 @@ header .toggle {
     margin-bottom: 20px;
     color: #edea5e;
   }
+  
+
+ 
  
 }

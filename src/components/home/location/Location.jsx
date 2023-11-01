@@ -1,7 +1,8 @@
 import React from "react"
 import Heading from "../../common/Heading"
-import { location } from "../../data/Data"
+// import { location } from "../../data/Data"
 import "./style.css"
+import LocationCard from "./LocationCard"
 
 const Location = () => {
   return (
@@ -9,8 +10,8 @@ const Location = () => {
       <section className='location padding'>
         <div className='container'>
           <Heading title='go Nightclubs & Bar' />
-
-          <div className='content grid3 mtop'>
+<LocationCard />
+          {/* <div className='content grid3 mtop'>
             {location.map((item, index) => (
               <div className='box' key={index}>
                 <img src={item.cover} alt='' />
@@ -24,7 +25,7 @@ const Location = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </>
